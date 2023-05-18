@@ -20,7 +20,7 @@ const connectDB = async () => {
 			useUnifiedTopology: true,
 			useNewUrlParser: true,
 		})
-		console.log('Connected to MongoDB');
+		console.log('Connected to MongoDB...');
 		// resetDatabase() // do not uncomment this until we have a bulkCreate or similar
 	} catch (err) {
 		console.error(err)

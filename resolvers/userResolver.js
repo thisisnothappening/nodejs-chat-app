@@ -4,7 +4,7 @@ const getUsers = async () => {
 	return await User.find()
 }
 
-const getUserById = async () => {
+const getUserById = async (id) => {
 	return await User.findById(id)
 }
 
